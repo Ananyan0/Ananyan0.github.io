@@ -22,6 +22,7 @@
 .menu-logo i{
 	font-size: 25px;
 	position: fixed;
+	cursor: pointer !important;
 }
 
 .menu-logo img{
