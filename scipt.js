@@ -1,3 +1,6 @@
-function menu() {
-    document.getElementById("menu").style.width = "100px";
-}
+$(document).ready(function () {
+	$('#close').click(function () {
+		$('.menu').toggleClass('menu-close');
+
+	})
+});

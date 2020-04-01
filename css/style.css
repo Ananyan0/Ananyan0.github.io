@@ -1,68 +1,92 @@
 *{
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .menu{
-    border: 1px solid red;
-    width: 300px;
-    height: 100vh;
-    background-color: rgb(0, 0, 175);
+	transition: 0.5s;
+	background-color: blue;
+	width: 300px;
+	height: 100vh;
+	left: 0;
+	top: 0;
+	padding-bottom: 20px;
 }
 
-.menu-logo{
-    display: block;
-    text-align: start;
-    margin-left: 50px;
+.menu-logo {
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 20px 0;
 }
 
-.menu-logo .fa{
-    font-size: 25px;
-    color: white;
+.menu-logo i{
+	font-size: 25px;
+	position: fixed;
 }
 
-.menu-logo a:hover{
-    text-decoration: none;
+.menu-logo img{
+	padding-left: 30px;
 }
-
-.menu-logo a{
-    padding-left: 17px;
-    font-size: 30px;
-    font-family: sans-serif;
-}
-
 
 .menu-account{
-    margin: 20px 0 0 90px;
-    color: white;
+	padding-left: 30px;
+	color: white;
 }
 
-.menu-account .account-title h3{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: bolder;
+.menu-account .account-title{
+	padding-left: 20px;
+	padding-top: 10px;
 }
 
-.menu-links{
-    display: flex;
-    flex-flow: column;
-    text-align: center;
-    margin-left: 10px;
+.menu-account img{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
 }
 
-.menu-links .menu-item{
-    margin: 20px 0 7px 20px ;
+.menu-item{
+	margin: 20px 0 0 25px;
 }
 
-.menu-links .menu-title h5{
-    margin: 20px 0 7px 20px;
+.menu-item a{
+	text-decoration: none !important;
+	color: white !important;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 10px;
 }
 
-.menu-links .menu-item a{
-    margin-left: 5px;
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: sans-serif;
+.item-title{
+	padding: 25px 0 5px 30px;
 }
+
+.menu-close{
+	width: 70px;
+	height: auto;
+	transition: 0.5s;
+}
+
+.menu-close .menu-logo img{
+	display: none;
+}
+
+.menu-close .menu-account{
+	display: none;
+}
+
+.menu-close .menu-item a{
+	display: none;
+}
+
+.menu-close .item-title{
+	display: none;
+}
+
+.menu-close .menu-logo i{
+	padding-right: 10px !important;
+}
+
+
+
+
