@@ -21,8 +21,8 @@
 
 .menu-logo i{
 	font-size: 25px;
-	position: fixed;
-	cursor: pointer !important;
+	cursor: pointer;
+	color: white;
 }
 
 .menu-logo img{
@@ -56,6 +56,7 @@
 	font-size: 13px;
 	font-weight: bold;
 	padding-left: 10px;
+	cursor: pointer;
 }
 
 .item-title{
@@ -84,10 +85,16 @@
 	display: none;
 }
 
-.menu-close .menu-logo i{
-	padding-right: 10px !important;
+.menu-close .google-logo img{
+	display: block;
 }
 
+.google-logo img{
+	width: 25px;
+	height: 25px;
+	margin-left: 40px;
+	display: none;
+}
 
 
 
